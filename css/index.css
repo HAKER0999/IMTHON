@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto&family=Schoolbell&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(  #8481FF, #2EF1FD, #0430A1);
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav{
+    display: flex;
+    /* background-color: ; */
+    width: 100% ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    p
+}
+
+.nav-logo img{
+    width: 199px;
+    height: 64px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 250px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.nav-item:hover{
+ color: aqua;
+ background-color: rgb(93, 135, 172);
+ border: none;
+ border-radius: 25px;
+ 
+}
+
+.nav-item{
+    padding: 10px 10px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.home-left{
+    width: 50%;
+    color: aliceblue;
+}
+
+.home-right{
+    width: 50%;
+}
+
+.home-left h1{
+    font-size: 64px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.home-left span{
+    font-size: 40px;
+    font-weight: 500;
+     font-family: 'Roboto Slab', serif;
+    padding: 0; 
+}
+
+.home-left p{
+    font-size: 16px;
+    width: 60%;
+    color: #2d4251;
+    padding-bottom: 15px;
+}
+
+.home-left-btn{
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.home-left-btn button{
+    width: 180px;
+    height: 56px;
+    border: none;
+    border-radius:18px ;
+    font-size: 16px;
+    background: transparent;
+}
+
+
+.home-left-btn button:hover{
+    background-color: aliceblue;
+    color: #317189;
+}
+
+.home-right{
+    
+    background-color: aliceblue;
+    width: 529px;
+    height: 504px;
+    border: none;
+    border-radius: 50px;
+   
+}
+
+.home-right img{
+    display: flex;
+    padding: 0%;
+    margin : 0 auto ;
+}
+
+.home-right p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #818181;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.home-right span{
+    color: #317189;
+}
+
+.home-right h4{
+    width: 97px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    background: #8A93E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -300px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 23%;
+    text-align: center;
+    color: #4F4F4F;
+    border: solid 2px #F2F2F2;
+    border-radius: 30px;
+    margin: 20px 0px;
+}
+
+.products h1{
+color: #31546D;
+text-align: center;
+font-size: 46px;
+font-weight: 700;
+padding: 40px 0px;
+}
+
+.aaa{
+   color: #317189; 
+}
+
+/* 
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card-btn button{
+  width: 180px;
+  height: 56px;
+  font-size: 14px;
+  border:solid 3px #75CCEB;
+  border-radius:18px ;
+  margin-top: 15px;
+  /* background-color: #75CCEB, #6FB4FF; */
+  margin: 30px 0px;
+}
+
+/* .card-btn button:hover{
+    background: #75CCEB, #6FB4FF;
+  } */
+
+.card:hover{
+    box-shadow: 0px 4px 50px 0px rgba(120, 143, 156, 0.25);   
+}
+
+.grip{
+    display: flex;
+    /* gap: 90px; */
+    padding-top: 100px;
+    justify-content: space-around;
+
+}
+.grip-left{
+   width: 50%; 
+   text-align: right;
+   
+}
+
+.grip-left h1{
+    /* width: 542px; */
+    font-size: 64px;
+    font-weight: 700;
+    color: #31546D;
+}
+
+.grip-left span{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sale{
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    align-items: center;
+}
+
+.sale h2{
+    font-size: 24px;
+    color: #31546D;
+}
+
+.sale h3{
+font-size: 70px;
+color: red;
+}
+
+.grip-left h5{
+    display: flex;
+    justify-content: right;
+    font-weight: 400;
+
+}
+
+.grip-right img{
+    display: flex;
+    justify-content: center;
+    width: 248px;
+    height: 233px;
+    align-items: center;
+    border: solid 1px #788F9C40 ;
+    box-shadow: 0px 4px 50px 0px rgba(120, 143, 156, 0.25);
+    border-radius: 50%;
+    margin-top: 40px;
+
+
+}
+
+.grip-left-btn{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.grip-left-btn  button{
+    width: 180px;
+    height: 52.36px;
+    border-radius: 18px;
+    color: #317189; 
+    border: none;
+    font-size: 20px;
+       
+}
+
+.grip-left-btn button:hover{
+    background-color: #317189;
+    color: white;
+}
+
+
+
